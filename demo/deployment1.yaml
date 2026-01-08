@@ -13,7 +13,7 @@ spec:
         app: nginx_deploy
     spec:
       containers:
-        - name: nginx
-          image: nginx:1.28.0
+        - name: myimage
+          image: docker pull kanchandev/sampleimage:latest
           ports:
             - containerPort: 80
