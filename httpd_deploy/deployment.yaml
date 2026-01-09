@@ -15,5 +15,3 @@ spec:
       containers:
         - name: myimage1
           image: kanchandev/httpdimage:v1
-          ports:
-            - containerPort: 80
