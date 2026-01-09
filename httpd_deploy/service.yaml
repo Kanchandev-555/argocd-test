@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nodeport-httpd_service
+  name: nodeport-httpd-service
 spec:
   selector:
    app: httpd_deploy
