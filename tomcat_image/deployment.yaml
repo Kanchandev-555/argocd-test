@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat-deployment
+spec:
+  selector:
+    matchLabels:
+      app: tomcat_deploy
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: tomcat_deploy
+    spec:
+      containers:
+        - name: myimage1
+          image: kanchandev/wardeploy:1.0
