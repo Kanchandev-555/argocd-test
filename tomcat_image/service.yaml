@@ -4,7 +4,7 @@ metadata:
   name: nodeport-tomcat-service
 spec:
   selector:
-   app: httpd_tomcat
+   app: tomcat_deploy
   ports:
     - protocol: TCP
       port: 8080
